@@ -6,8 +6,22 @@ namespace BasicsEdwinR.Models
 {
     public class ConversionModel
     {
-        public double Dollars { get; set; }
-        public double Euros { get; set; }
+        private double _Dollars;
+
+        public double Dollars
+        {
+            get { return _Dollars; }
+            set { _Dollars = value; }
+        }
+
+        private double _Euros;
+
+        public double Euros
+        {
+            get { return _Euros; }
+            set { _Euros = value; }
+        }
+
 
         public void ToDollars()
         {

@@ -11,7 +11,8 @@
     </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout>
-            <Entry Text="{}"/>
+            <Entry  Text="{Binding ToDollarsCommand}"/>
+            <Entry Text="{Binding Euros}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
